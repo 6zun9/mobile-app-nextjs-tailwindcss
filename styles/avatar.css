@@ -1,0 +1,22 @@
+.avatar {
+  height: 2rem;
+  width: 2rem;
+}
+
+.avatar--sm {
+  height: 2rem;
+  width: 2rem;
+}
+
+.avatar--md {
+  height: 5rem;
+  width: 5rem;
+}
+
+.avatar--lg {
+  height: 8rem;
+  width: 8rem;
+}
+
+
+
