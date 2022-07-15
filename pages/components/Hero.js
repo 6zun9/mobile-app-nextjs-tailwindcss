@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from 'next/future/image';
 
 import MenImage from '../../public/images/person.jpg';
 import LadyImage from '../../public/images/lady.jpg';
@@ -37,8 +37,8 @@ const Hero = () => {
       <Image
       src={CrownImage}
       alt={`Crown Image`}
-      layout='fixed'
-      className="!relative z-40  -right-1"
+      layout='raw'
+      className="relative !left-12 !-top-4"
       width={36}
       height={36}
     />
